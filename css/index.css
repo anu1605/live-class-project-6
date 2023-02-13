@@ -1,5 +1,6 @@
 body{
     margin-left: 1rem;
+    overflow: hidden;
 }
 nav{
     display: flex;
@@ -32,14 +33,14 @@ img[alt=actions]{
 .intro-section{
     display: flex;
 }
-.left-section{
-    margin-top: 1rem;
-}
+
 .left-section h3{
     font-family: Poppins;
+    margin: 0.5rem 0;
 }
 .left-section h1{
     font-family: "Fredoka One";
+    margin: 1rem 0;
     font-size: 3rem;
     font-weight: 100;
 }
@@ -53,6 +54,7 @@ img[alt= plus]{
     padding: 0.2rem;
 }
 .sub-headline{
+    margin: 0.8rem 0;
     display: flex;
     font-family: Poppins;
     align-items: center;
@@ -74,7 +76,7 @@ img[alt=plus]{
     background-color: rgba(254,94,53,255);
     font-size: 0.7rem;
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     border-radius: 30px;
 }
 .left-section , .action-btn:nth-of-type(1){
@@ -87,8 +89,8 @@ img[alt=plus]{
 }
 img[alt=headphone]{
     position: relative;
-    transform: translate(3cm, -5cm);
-    width: 35vw;
+    transform: translate(2cm, -5cm);
+    width: 32vw;
 }
 .discount , .discount-content{
     position: relative;
@@ -96,12 +98,13 @@ img[alt=headphone]{
 }
 .discount {
     width: 30%;
-    transform: translate(2.2cm,5.8cm);
+    transform: translate(1.2cm,4.8cm);
     filter: drop-shadow(-4px 4px rgba(171,171,171,0.5));
 }
 .discount-content{
+    font-size: 0.8rem;
     font-family: "Fredoka One";
-    transform: translate(2.7cm,3.1cm);
+    transform: translate(1.7cm,2.5cm);
 }
 .discount-content h4{
     margin-bottom: 0;
@@ -118,12 +121,12 @@ img[alt=headphone]{
     position: relative;
     z-index: 5;
     display: flex;
-    width: 8rem;
+    width: 6rem;
     justify-content: space-between;
 }
 .dot{
-    width: 1rem;
-    height: 1rem;
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 30px;
 }
 .yellow-dot{
@@ -138,12 +141,12 @@ img[alt=headphone]{
 .right-section .action-btn{
     margin-top: 1rem;
     position: relative;
-    transform: translate(3cm,8.5cm);
+    transform: translate(2.2cm,6.8cm);
     z-index: 1;
 }
 .dots{
     position: relative;
-    transform: translate(3cm,8.5cm);
+    transform: translate(1.8cm,6.8cm);
 }
 @media screen and (min-width:1500px) {
     .discount-content{
@@ -189,13 +192,13 @@ img[alt=headphone]{
         letter-spacing: 0.1ch;
     }
     .action-btn{
-        width: 8rem;
+        width: 9rem;
         font-size: 1rem;
     }
     .right-section .action-btn{
-        transform: translate(3cm,16.5cm);
+        transform: translate(3.15cm,15.1cm);
     }
     .dots{
-        transform: translate(3cm,16.5cm);
+        transform: translate(3cm,14.8cm);
     }
 }
